@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="article-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="article-meta">
+      <span>{{ .Date.Format "2 January 2006" }}</span>
+      {{ with .Params.author }}<span>Par {{ . }}</span>{{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="article-content">
+  {{ .Content }}
+</div>
+
+<section class="section-cta" style="margin-top:0;">
+  <div class="container">
+    <h2 class="section-title" style="font-size:1.8rem;">Tu veux aller plus loin ?</h2>
+    <p>Échangeons sur ta situation lors d'une visio gratuite.</p>
+    <div class="cta-actions">
+      <a href="/contact-us/" class="btn btn-white">Prendre rendez-vous</a>
+      <a href="/blog/" class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,0.4);">Lire d'autres articles</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,33 @@
+baseURL = "https://attirerdesclients.re/"
+languageCode = "fr-FR"
+title = "Attirer des Clients"
+
+[params]
+  description = "Fatigué de courir après tes clients ? Et si c'était eux qui venaient à toi directement ?"
+  email = "contact@attirerdesclients.re"
+  whatsapp = "+262 692 38 99 19"
+  address = "7 Ruelle Jacquemin, Saint-Denis, La Réunion"
+  googleAnalytics = "GT-NNS2ZGRC"
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Qui sommes nous ?"
+    url = "/equipe/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact-us/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

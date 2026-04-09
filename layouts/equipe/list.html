@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>Qui sommes nous ?</h1>
+    <p>On te présente l'équipe</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="team-page-grid">
+      <div>
+        <div class="team-card" style="margin-bottom:24px;">
+          <div class="team-avatar">ID</div>
+          <h3>Imrane Dessaï</h3>
+          <p class="role">Social Media · Création de contenu</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">FF</div>
+          <h3>Frédéric Fleurié</h3>
+          <p class="role">Web Design · SEO</p>
+        </div>
+      </div>
+      <div>
+        {{ .Content }}
+        <a href="/contact-us/" class="btn btn-primary" style="margin-top:32px;">Prendre rendez-vous</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-cta">
+  <div class="container">
+    <h2 class="section-title">Construisons ton activité ensemble</h2>
+    <p>Une visio de 30 minutes pour analyser ta situation et identifier les leviers de croissance.</p>
+    <div class="cta-actions">
+      <a href="/contact-us/" class="btn btn-white">Prendre rendez-vous</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}
