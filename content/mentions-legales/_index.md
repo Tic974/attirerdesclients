@@ -4,29 +4,23 @@ title: "Mentions légales"
 
 ## Éditeur du site
 
-**Banyan**
-1 Ruelle Jacquemin, 97400 Saint-Denis
-Email : contact@banyan.re
-Tél : 0692 03 56 70
-
-**Forme juridique :** SAS Banyan
-**Capital social :** 100 €
-**SIREN :** 841 855 521
+**Attirer des Clients**
+Email : contact@attirerdesclients.re
 
 **Directeur de la publication :** Frédéric Fleurié — frederic@banyan.re
 
 ## Hébergement
 
-HOSTINGER, UAB
-Vilnius, Lituanie
+GitHub Pages — GitHub, Inc.
+88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis
 
 ## Propriété intellectuelle
 
-L'ensemble du contenu de ce site (textes, images, graphiques, logos, vidéos, architecture, icônes, sons) est la propriété de Banyan. Toute reproduction, totale ou partielle, est soumise à autorisation écrite préalable.
+L'ensemble du contenu de ce site (textes, images, graphiques, logos, vidéos, architecture, icônes, sons) est la propriété d'Attirer des Clients. Toute reproduction, totale ou partielle, est soumise à autorisation écrite préalable.
 
 ## Responsabilité
 
-La société décline toute responsabilité pour les dommages causés aux appareils des utilisateurs. Elle se réserve le droit de supprimer tout contenu non conforme à ses conditions d'utilisation.
+L'éditeur décline toute responsabilité pour les dommages causés aux appareils des utilisateurs. Il se réserve le droit de supprimer tout contenu non conforme à ses conditions d'utilisation.
 
 ## Données personnelles et cookies
 
