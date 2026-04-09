@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>Message envoyé !</h1>
+    <p>Merci, on te répond dans les 24h.</p>
+  </div>
+</div>
+
+<section style="text-align:center;padding:80px 0;">
+  <div class="container">
+    <div style="font-size:3rem;margin-bottom:24px;">✅</div>
+    <h2 class="section-title" style="max-width:500px;margin:0 auto 16px;">On a bien reçu ton message</h2>
+    <p style="color:var(--gray-700);max-width:440px;margin:0 auto 40px;">On revient vers toi très vite pour caler un échange et voir comment on peut t'aider.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="{{ "/" | relURL }}" class="btn btn-primary">Retour à l'accueil</a>
+      <a href="{{ "/blog/" | relURL }}" class="btn btn-outline">Lire nos articles</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}
