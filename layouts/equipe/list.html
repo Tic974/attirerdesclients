@@ -24,7 +24,7 @@
       </div>
       <div>
         {{ .Content }}
-        <a href="/contact-us/" class="btn btn-primary" style="margin-top:32px;">Prendre rendez-vous</a>
+        <a href="{{ "/contact-us/" | relURL }}" class="btn btn-primary" style="margin-top:32px;">Prendre rendez-vous</a>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@
     <h2 class="section-title">Construisons ton activité ensemble</h2>
     <p>Une visio de 30 minutes pour analyser ta situation et identifier les leviers de croissance.</p>
     <div class="cta-actions">
-      <a href="/contact-us/" class="btn btn-white">Prendre rendez-vous</a>
+      <a href="{{ "/contact-us/" | relURL }}" class="btn btn-white">Prendre rendez-vous</a>
     </div>
   </div>
 </section>
